@@ -1,7 +1,12 @@
 import React from "react";
+import LaptopAnimation from "../components/LaptopAnimation";
 
 const ProductHome = () => {
-  return <div>ProductHome</div>;
+  return (
+    <>
+      <LaptopAnimation />
+    </>
+  );
 };
 
 export default ProductHome;
